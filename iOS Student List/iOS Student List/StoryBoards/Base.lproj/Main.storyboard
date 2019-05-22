@@ -33,6 +33,9 @@
                                             <segment title="First Name"/>
                                             <segment title="Last Name"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="sort:" destination="BYZ-38-t0r" eventType="valueChanged" id="62O-nD-5ox"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
@@ -53,6 +56,9 @@
                                             <segment title="Web"/>
                                             <segment title="UX"/>
                                         </segments>
+                                        <connections>
+                                            <action selector="filter:" destination="BYZ-38-t0r" eventType="valueChanged" id="Y7r-1E-vwF"/>
+                                        </connections>
                                     </segmentedControl>
                                 </subviews>
                             </stackView>
@@ -76,6 +82,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="filterSegmentControl" destination="rSA-hf-5nN" id="eS7-X8-GHl"/>
+                        <outlet property="sortSegmentControl" destination="e9I-sZ-gbA" id="qhh-rT-G2z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

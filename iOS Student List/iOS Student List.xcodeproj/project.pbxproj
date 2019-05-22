@@ -15,6 +15,7 @@
 		B3DE9AF12294E09E008A40B5 /* students.json in Resources */ = {isa = PBXBuildFile; fileRef = B3DE9AF02294E09E008A40B5 /* students.json */; };
 		B3DE9AF62294E31D008A40B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9AF52294E31D008A40B5 /* MainViewController.swift */; };
 		B3DE9AF82294E340008A40B5 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9AF72294E340008A40B5 /* StudentTableViewController.swift */; };
+		B3DE9AFA2294E6BB008A40B5 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DE9AF92294E6BB008A40B5 /* StudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B3DE9AF02294E09E008A40B5 /* students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = students.json; sourceTree = "<group>"; };
 		B3DE9AF52294E31D008A40B5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B3DE9AF72294E340008A40B5 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		B3DE9AF92294E6BB008A40B5 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				B3DE9AEE2294E08E008A40B5 /* Student.swift */,
+				B3DE9AF92294E6BB008A40B5 /* StudentController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DE9AFA2294E6BB008A40B5 /* StudentController.swift in Sources */,
 				B3DE9AEF2294E08E008A40B5 /* Student.swift in Sources */,
 				B3DE9ADC2294E035008A40B5 /* AppDelegate.swift in Sources */,
 				B3DE9AF82294E340008A40B5 /* StudentTableViewController.swift in Sources */,
@@ -328,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBB8C9E36E;
-				INFOPLIST_FILE = "iOS Student List/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -346,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBB8C9E36E;
-				INFOPLIST_FILE = "iOS Student List/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
